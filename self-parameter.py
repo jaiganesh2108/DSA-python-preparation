@@ -8,6 +8,13 @@ print(exc.a)
 exc.add(20)
 print(exc.a)
 
+""" Instructions
+Inside the editor, complete the following steps:
+Create a class called Car
+Add an __init__ method with a brand parameter, and store it as a property
+Add a method called show that prints the brand
+Create an object c1 of the Car class with brand "Ford"
+Call the show method on c1"""
 
 class Car:
     def __init__(self, brand):
