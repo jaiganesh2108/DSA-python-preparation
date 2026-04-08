@@ -9,10 +9,11 @@ public class Main {
         num = 10;
         float myFloat;
         final boolean isBoolean = true;
-        myFloat = 3.15f;
+        myFloat = 3e15f;
         System.out.println(isBoolean);
         System.out.println(myFloat);
         System.out.println(num);
         System.out.println(name + " " + lastname);
+        System.out.println("this is just to print this line");
     }
 }
